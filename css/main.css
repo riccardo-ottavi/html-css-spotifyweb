@@ -30,6 +30,13 @@
     background-color: lightblue
 }
 
+#content {
+    width: 95%;
+    margin: 0 auto;
+    height: calc(100vh - 225px);
+    overflow-y: scroll;
+}
+
 #menu {
     width: 15%;
     /*debug*/
@@ -37,8 +44,31 @@
     height: 100%;
 }
 
+.row {
+    display: flex;
+    gap:15px;
+    width: 100%;
+}
+
+.column {
+    height: 175px;
+    background-color: blue;
+    width: 100%;
+    display: flex;
+    margin-bottom: 250px;
+}
+
 footer {
     /*debug*/
     background-color: aquamarine;
     height: 90px;
 }
+
+.card {
+    width: calc(100% / 6 - (20px / 6));
+}
+
+img {
+    max-width: 100%;
+}
+
