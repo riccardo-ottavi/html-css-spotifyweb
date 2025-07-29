@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Circular Std', 'Helvetica Neue', Arial, sans-serif;
 }
 
 a {
@@ -29,6 +30,12 @@ h3 {
     color: white;
 }
 
+#menu i {
+    height: 20px;
+    width: 20px;
+    
+}
+
 #upgrade-btn {
     padding: 10px;
     color: white;
@@ -39,6 +46,12 @@ h3 {
 #logo-box {
     height: 90px;
     width: 100%;
+}
+
+#big-logo{
+    width: 130px;
+    margin-top: 40px;
+
 }
 
 #call-to {
@@ -86,6 +99,18 @@ h3 {
     justify-content: space-between;
 }
 
+#menu * {
+    margin-bottom: 5px;
+}
+
+#menu-list img {
+    width: 30px;
+    height: 30px;
+}
+
+#menu-list {
+    margin-bottom: 150px;
+}
 
 
 .row {
