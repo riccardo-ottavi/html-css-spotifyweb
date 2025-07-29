@@ -15,8 +15,9 @@
 
 #main {
     width:85%;
-    background-color: yellow;
+    background-color: #141922;
     flex-shrink: 1;
+    color: white;
 }
 
 #call-to {
@@ -49,7 +50,7 @@
 
 .row {
     display: flex;
-    width: 100%;
+    width: 95%;
 }
 
 .column {
@@ -59,17 +60,25 @@
     display: flex;
     margin-bottom: 250px;
     gap:15px;
+    flex-wrap: wrap;
 }
 
 footer {
+    display: flex;
+    height: 90px;
+    background-color: #282828
+}
+
+#footer-container {
     /*debug*/
-    background-color: aquamarine;
+    
     min-height: 90px;
     flex-shrink: 0;
+    width: 100%;
 }
 
 .card {
-    width: calc(100% / 6 - (20px / 6));
+    width: calc(100% / 6 - (75px / 6));
     flex-shrink: 0;
 }
 
@@ -77,3 +86,8 @@ img {
     max-width: 100%;
 }
 
+@media screen and (max-width: 878px) {
+    .card {
+        width: calc(100% / 4 - (60px / 4));
+    }
+}
