@@ -5,3 +5,40 @@
     box-sizing: border-box;
 }
 
+#wrapper {
+    /*debug*/
+    background-color: black;
+    height: calc(100vh - 90px);
+
+    display: flex;
+}
+
+#main {
+    width:85%;
+    background-color: yellow;
+}
+
+#call-to {
+    /*debug*/
+    height: 90px;
+    background-color: chartreuse;
+}
+
+#genres {
+    /*debug*/
+    height: 45px;
+    background-color: lightblue
+}
+
+#menu {
+    width: 15%;
+    /*debug*/
+    background-color: brown;
+    height: 100%;
+}
+
+footer {
+    /*debug*/
+    background-color: aquamarine;
+    height: 90px;
+}
