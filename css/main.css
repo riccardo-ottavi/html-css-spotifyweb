@@ -52,8 +52,14 @@ a {
     background-color: #141922;
     display: flex;
     justify-content: space-between;
-    width: 65%;
+    width: 50%;
     margin: 0 auto;
+    flex-wrap: wrap;
+    font-size: 12px;
+}
+
+#genres * {
+    flex-shrink: 0;
 }
 
 #content {
