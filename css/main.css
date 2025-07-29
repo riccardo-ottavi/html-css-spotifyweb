@@ -7,6 +7,7 @@
 
 a {
     text-decoration: none;
+    color: white;
 }
 
 #wrapper {
@@ -29,6 +30,11 @@ a {
     color: white;
     border-radius: 33px;
     border: solid 1px white;
+}
+
+#logo-box {
+    height: 90px;
+    width: 100%;
 }
 
 #call-to {
@@ -59,12 +65,18 @@ a {
 
 #menu {
     width: 15%;
+    display: flex;
     /*debug*/
-    background-color: brown;
+    background-color: #080B12;
     height: 100%;
     flex-shrink: 0;
     min-width: 215px;
+    color: white;
+    flex-direction: column;
+    justify-content: space-between;
 }
+
+
 
 .row {
     display: flex;
