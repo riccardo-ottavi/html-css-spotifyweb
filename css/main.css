@@ -30,6 +30,11 @@ h3 {
     color: white;
 }
 
+#main span,
+#main a {
+    color: #7D7F84;
+}
+
 #menu i {
     height: 20px;
     width: 20px;
