@@ -194,14 +194,17 @@ footer {
     position: fixed;
     z-index: 5000;
     width: 100%;
+    min-width: 600px;
 }
 
 #left {
-    width: 23%;
     height: 90px;
     display: flex;
     color: white;
     align-items: center;
+    padding-left: 20px;
+    font-size: 12px;
+    min-width: 30%;
 }
 
 footer i {
@@ -213,19 +216,26 @@ footer i {
 #left img {
     width: 42px;
     height: 42px;
+    margin-right: 20px;
 }
 
 #mid {
-    width: 40%;
+    min-width: 40%;
     height: 90px;
     display: flex;
     flex-direction: column;
+}
+
+#mid i {
+    font-size: 20px;
 }
 
 #right {
     height: 90px;
     display: flex;
     align-items: center;
+    width: 30%;
+    padding-left: 180px;
 }
 
 #footer-container {
@@ -266,6 +276,26 @@ img {
 #profile-area img {
     width: 25px;
     height: 25px;
+}
+
+#track {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#inner-track {
+    width: 80%;
+    height: 3px;
+    background-color: gray;
+}
+
+#small-track {
+    width: 20%;
+    height: 3px;
+    background-color: gray;
 }
 
 @media screen and (max-width: 878px) {
