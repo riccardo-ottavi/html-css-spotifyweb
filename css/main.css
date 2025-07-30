@@ -3,7 +3,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Circular Std', 'Helvetica Neue', Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
 }
 
 a {
@@ -199,6 +200,7 @@ footer i {
 .card {
     width: calc(100% / 6 - (75px / 6));
     flex-shrink: 0;
+    text-align: center;
 }
 
 img {
