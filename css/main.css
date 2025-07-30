@@ -4,6 +4,10 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
+    
+}
+
+body {
     font-size: 14px;
 }
 
@@ -56,7 +60,11 @@ h3 {
 #big-logo{
     width: 130px;
     margin-top: 40px;
+}
 
+#small-logo {
+    height: 30px;
+    margin-top: 40px;
 }
 
 ul {
@@ -78,10 +86,11 @@ ul {
     background-color: #141922;
     display: flex;
     justify-content: space-between;
-    width: 50%;
+    width: 60%;
     margin: 0 auto;
     flex-wrap: wrap;
-    font-size: 12px;
+    font-size: 10px;
+    line-height: 35px;
 }
 
 #genres * {
@@ -265,12 +274,21 @@ img {
     }
 
     #menu {
-        width: 60px;
-        min-width: 60px;
+        width: 48px;
+        min-width: 48px;
     }
 
     #profile-area {
         display: flex;
         flex-direction: column;
     }
+
+    #small-logo {
+        display: block
+    }
+
+    #big-logo {
+        display: none;
+    }
+
 }
