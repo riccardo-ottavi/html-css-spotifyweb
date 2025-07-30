@@ -164,13 +164,42 @@ a:hover {
     font-size: 30px;
 }
 
+.card-pics {
+    position: relative;
+    opacity: 1;
+    width: 100%;
+}
+
 .hover-play {
     position: absolute;
     display: none;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
 }
 
-.card:hover .hover-play {
+.card-pics:hover .hover-play {
     display: block;
+}
+
+.black-back {
+    background-color: rgba(0, 0, 0, 0);
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.card-pics:hover .black-back{
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: 0.6;
+}
+
+.black-back {
+    background-color: black;
 }
 
 .row {
@@ -261,8 +290,9 @@ footer i {
     width: calc(100% / 6 - (75px / 6));
     flex-shrink: 0;
     text-align: center;
-    position: relative;
 }
+
+
 
 img {
     max-width: 100%;
