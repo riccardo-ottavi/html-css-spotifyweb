@@ -31,7 +31,7 @@ h3 {
 }
 
 #main {
-    width:85%;
+    flex-grow: 1;
     background-color: #141922;
     flex-shrink: 1;
     color: white;
@@ -96,7 +96,7 @@ ul {
 }
 
 #menu {
-    width: 15%;
+    width: 230px;
     display: flex;
     /*debug*/
     background-color: #080B12;
@@ -257,4 +257,20 @@ img {
         margin-bottom: 350px;
     }
 
+}
+
+@media screen and (max-width: 552px) {
+    .hide-text {
+        display: none;
+    }
+
+    #menu {
+        width: 60px;
+        min-width: 60px;
+    }
+
+    #profile-area {
+        display: flex;
+        flex-direction: column;
+    }
 }
