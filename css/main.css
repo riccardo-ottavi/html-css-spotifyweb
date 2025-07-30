@@ -4,7 +4,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
-    
 }
 
 body {
@@ -146,10 +145,14 @@ ul {
 }
 
 #main-hr {
-    width: 90%;
+    width: 95%;
     margin: 0 auto;
     color: #808080;
     height: 1px;
+}
+
+#install-btn{
+    font-size: 20px;
 }
 
 a:hover {
@@ -302,6 +305,16 @@ img {
     background-color: #808080;
     border-radius: 33px;
 }
+
+#profile-area *{
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+}
+
 
 #profile-area img {
     width: 25px;
