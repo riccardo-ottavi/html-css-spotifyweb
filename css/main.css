@@ -34,12 +34,6 @@ h3 {
     color: #7D7F84;
 }
 
-#menu i {
-    height: 20px;
-    width: 20px;
-    
-}
-
 #upgrade-btn {
     padding: 10px;
     color: white;
@@ -56,6 +50,10 @@ h3 {
     width: 130px;
     margin-top: 40px;
 
+}
+
+ul {
+    list-style: none;
 }
 
 #call-to {
@@ -101,14 +99,33 @@ h3 {
     color: white;
     flex-direction: column;
     justify-content: space-between;
+    margin-left: 20px;
+}
+
+#menu-list {
+    margin-top: 20px;
 }
 
 #menu-list img {
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
 }
 
+#playlist {
+    margin-top: 20px;
+}
 
+#playlist *{
+    margin-bottom: 10px;
+}
+
+#playlist a {
+    color: #7D7F84;
+}
+
+#plus-icon {
+    font-size: 30px;
+}
 
 
 #profile-area img {
@@ -186,6 +203,16 @@ footer i {
 
 img {
     max-width: 100%;
+}
+
+#circle {
+    background-color: #808080;
+    border-radius: 33px;
+}
+
+#profile-area img {
+    width: 25px;
+    height: 25px;
 }
 
 @media screen and (max-width: 878px) {
