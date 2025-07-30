@@ -65,6 +65,7 @@ h3 {
 #small-logo {
     height: 30px;
     margin-top: 40px;
+    display: none;
 }
 
 ul {
@@ -137,6 +138,13 @@ ul {
 
 #playlist a {
     color: #7D7F84;
+}
+
+#main-hr {
+    width: 90%;
+    margin: 0 auto;
+    color: #808080;
+    height: 1px;
 }
 
 a:hover {
@@ -290,5 +298,4 @@ img {
     #big-logo {
         display: none;
     }
-
 }
