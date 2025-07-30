@@ -373,6 +373,19 @@ img {
     display: block;
 }
 
+#left i {
+    color: #878787;
+}
+
+#left i:hover {
+    color: white;
+}
+
+#footer-play:hover {
+    font-size:30px;
+}
+
+
 @media screen and (max-width: 878px) {
     .card {
         width: calc(100% / 4 - (60px / 4));
