@@ -175,6 +175,8 @@ footer {
 
 footer i {
     color: white;
+    margin-right: 10px;
+    margin-left: 20px;
 }
 
 #left img {
@@ -183,15 +185,16 @@ footer i {
 }
 
 #mid {
-    width: 54%;
+    width: 40%;
     height: 90px;
     display: flex;
     flex-direction: column;
 }
 
 #right {
-    width: 23%;
     height: 90px;
+    display: flex;
+    align-items: center;
 }
 
 #footer-container {
@@ -200,6 +203,11 @@ footer i {
     min-height: 90px;
     flex-shrink: 0;
     width: 100%;
+    justify-content: space-between;
+}
+
+#footer-icons {
+    margin: 0 auto;
 }
 
 #mid {
