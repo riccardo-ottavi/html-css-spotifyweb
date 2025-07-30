@@ -136,12 +136,6 @@ a:hover {
     font-size: 30px;
 }
 
-
-#profile-area img {
-    width: 30px;
-}
-
-
 .row {
     display: flex;
     width: 95%;
@@ -160,6 +154,9 @@ footer {
     display: flex;
     height: 90px;
     background-color: #282828;
+    position: fixed;
+    z-index: 5000;
+    width: 100%;
 }
 
 #left {
