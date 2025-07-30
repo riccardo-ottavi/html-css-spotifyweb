@@ -164,6 +164,15 @@ a:hover {
     font-size: 30px;
 }
 
+.hover-play {
+    position: absolute;
+    display: none;
+}
+
+.card:hover .hover-play {
+    display: block;
+}
+
 .row {
     display: flex;
     width: 95%;
@@ -242,6 +251,7 @@ footer i {
     width: calc(100% / 6 - (75px / 6));
     flex-shrink: 0;
     text-align: center;
+    position: relative;
 }
 
 img {
