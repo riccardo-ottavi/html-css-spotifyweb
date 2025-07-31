@@ -32,11 +32,9 @@ h3 {
 
 #menu li {
     display: flex;
-    align-items: center;
 }
 
 #wrapper {
-    background-color: black;
     height: calc(100vh - 90px);
     display: flex;
 }
@@ -79,10 +77,6 @@ h3 {
     display: none;
 }
 
-ul {
-    list-style: none;
-}
-
 #call-to {
     height: 90px;
     background-color: #080b128c;
@@ -97,7 +91,6 @@ ul {
 
 #genres {
     padding-top: 30px;
-    background-color: #141922;
     display: flex;
     justify-content: space-between;
     width: 60%;
@@ -108,8 +101,6 @@ ul {
 
 #content {
     padding-left: 20px;
-    margin: 0 auto;
-    height: calc(100vh - 225px);
 }
 
 #menu {
@@ -125,7 +116,6 @@ ul {
 
 #menu-list {
     margin-top: 13px;
-    margin-right: 12px;
 }
 
 #menu-list img {
@@ -207,12 +197,10 @@ a:hover {
 }
 
 .row {
-    display: flex;
-    width: 95%;
+    width: 98%;
 }
 
 .column {
-    width: 100%;
     display: flex;
     gap:15px;
     flex-wrap: wrap;
@@ -251,7 +239,6 @@ footer i {
 
 #left img {
     width: 42px;
-    height: 42px;
     margin-right: 20px;
 }
 
@@ -271,7 +258,7 @@ footer i {
     display: flex;
     align-items: center;
     width: 30%;
-    padding-left: 18px;
+    margin-right: 18px;
     justify-content: end;
     max-width: 400px;
 }
@@ -299,7 +286,6 @@ footer i {
 
 .card {
     width: calc(100% / 6 - (75px / 6));
-    flex-shrink: 0;
     text-align: center;
     margin-top: 30px;
 
