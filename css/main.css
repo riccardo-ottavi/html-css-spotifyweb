@@ -60,6 +60,7 @@ h3 {
     border-radius: 33px;
     border: solid 1px white;
     font-size: 10px;
+    margin-right: 20px;
 }
 
 #upgrade-btn:hover {
@@ -464,7 +465,7 @@ img {
     }
 
     #home-btn {
-    border-left: none;
+        display: none;
     }
 
     #left {
@@ -479,8 +480,11 @@ img {
         margin-right: 110px;
     }
 
-     .row {
+    .row {
         margin-top: 0px;
         margin-bottom: 0px;
     }
+
+
+
 }
