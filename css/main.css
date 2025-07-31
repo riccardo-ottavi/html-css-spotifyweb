@@ -173,7 +173,7 @@ a:hover {
     font-size: 60px;
 }
 
-.card-pics:hover .hover-play {
+.card:hover .hover-play {
     display: block;
 }
 
@@ -187,7 +187,7 @@ a:hover {
     left: 0;
 }
 
-.card-pics:hover .black-back{
+.card:hover .black-back{
     background-color: rgba(0, 0, 0, 0.6);
     opacity: 0.6;
 }
