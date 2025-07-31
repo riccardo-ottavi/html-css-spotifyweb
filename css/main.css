@@ -39,7 +39,7 @@ h3 {
 }
 
 #green-border {
-    border-bottom: 3px solid green;
+    border-bottom: 3px solid #ADFF2F;
 }
 
 .gray-text {
@@ -101,8 +101,7 @@ ul {
 
 #menu {
     display: flex;
-    /*debug*/
-    background-color: #080B12;
+    background-color: black;
     min-width: 215px;
     color: white;
     flex-direction: column;
@@ -128,10 +127,6 @@ ul {
 
 #playlist a {
     color: #7D7F84;
-}
-
-#install-btn{
-    font-size: 20px;
 }
 
 a:hover {
@@ -288,7 +283,7 @@ footer i {
 }
 
 #home-btn {
-    border-left: solid 3px green;
+    border-left: solid 3px #ADFF2F;
 }
 
 #plus-wrapper {
@@ -324,12 +319,12 @@ img {
 
 
 #profile-area img {
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
 }
 
 #track {
-    width: 70%;
+    width: 63%;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -372,7 +367,7 @@ img {
 
 #inner-track:hover .inner-progression,
 #small-track:hover .inner-progression {
-    background-color: green;
+    background-color: #ADFF2F;
 }
 
 #inner-track:hover .marker,
@@ -406,14 +401,13 @@ img {
 
 @media screen and (max-width: 640px) {
     .card {
-        width: calc(100% / 2 - (60px / 2));;
+        width: calc(100% / 2 - (60px / 2));
     }
 
     .row {
         margin-top: 50px;
         margin-bottom: 350px;
     }
-
 }
 
 @media screen and (max-width: 552px) {
