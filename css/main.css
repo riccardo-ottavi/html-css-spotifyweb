@@ -15,10 +15,15 @@ a {
     color: white;
 }
 
+.card h4 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
 h3 {
-    margin-top: 68px;
     font-size: 22px;
-    margin-bottom: 25px;
+    margin-top: 30px;
+
 }
 
 .round-box {
@@ -31,16 +36,15 @@ h3 {
 }
 
 #wrapper {
-    /*debug*/
     background-color: black;
     height: calc(100vh - 90px);
-
     display: flex;
 }
 
 #main {
     background-color: #141922;
     color: white;
+    overflow-y: scroll;
 }
 
 #green-border {
@@ -79,12 +83,15 @@ ul {
 }
 
 #call-to {
-    /*debug*/
     height: 90px;
-    background-color: #080B12;
+    background-color: #080b128c;
     display: flex;
     justify-content: end;
     align-items: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 10;
 }
 
 #genres {
@@ -95,13 +102,13 @@ ul {
     width: 60%;
     margin: 0 auto;
     flex-wrap: wrap;
+    margin-top: 90px;
 }
 
 #content {
-    width: 95%;
+    padding-left: 20px;
     margin: 0 auto;
     height: calc(100vh - 225px);
-    overflow-y: scroll;
 }
 
 #menu {
@@ -112,6 +119,7 @@ ul {
     flex-direction: column;
     justify-content: space-between;
     padding-left: 20px;
+    z-index: 20;
 }
 
 #menu-list {
@@ -204,7 +212,6 @@ a:hover {
 .column {
     width: 100%;
     display: flex;
-    margin-bottom: 100px;
     gap:15px;
     flex-wrap: wrap;
 }
@@ -267,7 +274,6 @@ footer i {
 }
 
 #footer-container {
-    /*debug*/
     display: flex;
     min-height: 90px;
     flex-shrink: 0;
@@ -292,6 +298,13 @@ footer i {
     width: calc(100% / 6 - (75px / 6));
     flex-shrink: 0;
     text-align: center;
+    margin-top: 30px;
+
+}
+
+#content span {
+    margin-top: 10px;
+    display: block;
 }
 
 #home-btn {
@@ -349,9 +362,7 @@ img {
     width: 80%;
     height: 3px;
     background-color: gray;
-    display: flex;
-    
-    
+    display: flex;  
 }
 
 #small-track {
@@ -426,7 +437,7 @@ img {
 
 @media screen and (max-width: 552px) {
     .hide-text {
-        display: none !important; /*risolvi*/
+        display: none !important; /*TODO*/
     }
 
     #menu {
