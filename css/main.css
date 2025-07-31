@@ -7,7 +7,7 @@
 }
 
 body {
-    font-size: 14px;
+    font-size: 12px;
 }
 
 a {
@@ -124,7 +124,8 @@ ul {
 }
 
 #menu-list {
-    margin-top: 20px;
+    margin-top: 13px;
+    margin-right: 12px;
 }
 
 #menu-list img {
@@ -272,6 +273,7 @@ footer i {
     width: 30%;
     padding-left: 18px;
     justify-content: end;
+    max-width: 400px;
 }
 
 #footer-container {
@@ -347,8 +349,8 @@ img {
 
 
 #profile-area img {
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
 }
 
 #track {
@@ -423,6 +425,16 @@ img {
         margin-top: 0px;
         margin-bottom: 0px;
     }
+
+    #small-icons {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #small-icons *{
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
 }
 
 @media screen and (max-width: 640px) {
@@ -452,7 +464,6 @@ img {
     }
 
     #profile-area *{
-        display: block;
         margin-right: 0;
     }
 
@@ -473,11 +484,15 @@ img {
     }
 
     #mid {
-        margin-left: 40px;
+        width: 100%;
+        margin: 0 auto;
+        margin-right: 120px;
+        
     }
 
     #right {
         margin-right: 110px;
+        display: none;
     }
 
     .row {
