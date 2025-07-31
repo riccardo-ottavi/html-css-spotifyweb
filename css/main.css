@@ -258,7 +258,8 @@ footer i {
     display: flex;
     align-items: center;
     width: 30%;
-    padding-left: 180px;
+    padding-left: 18px;
+    justify-content: end;
 }
 
 #footer-container {
