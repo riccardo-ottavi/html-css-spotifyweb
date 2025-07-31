@@ -64,8 +64,8 @@ h3 {
 }
 
 #small-logo {
-    height: 30px;
-    margin-top: 40px;
+    height: 24px;
+    margin-top: 14px;
     display: none;
 }
 
@@ -417,12 +417,17 @@ img {
 
     #menu {
         width: 48px;
-        min-width: 48px;
+        min-width: 56px;
     }
 
     #profile-area {
         display: flex;
         flex-direction: column;
+    }
+
+    #profile-area *{
+        display: block;
+        margin-right: 0;
     }
 
     #small-logo {
@@ -431,5 +436,21 @@ img {
 
     #big-logo {
         display: none;
+    }
+
+    #home-btn {
+    border-left: none;
+    }
+
+    #left {
+        display: none;
+    }
+
+    #mid {
+        margin-left: 40px;
+    }
+
+    #right {
+        margin-right: 110px;
     }
 }
