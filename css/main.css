@@ -202,7 +202,6 @@ a:hover {
 }
 
 .column {
-    height: 175px;
     width: 100%;
     display: flex;
     margin-bottom: 100px;
