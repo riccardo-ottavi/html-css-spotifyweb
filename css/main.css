@@ -418,9 +418,9 @@ img {
         width: calc(100% / 4 - (60px / 4));
     }
 
-    .row {
-        margin-top: 50px;
-        margin-bottom: 150px;
+    h4 {
+        margin-top: 0px;
+        margin-bottom: 0px;
     }
 }
 
@@ -478,4 +478,10 @@ img {
     #right {
         margin-right: 110px;
     }
+
+     .row {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
 }
