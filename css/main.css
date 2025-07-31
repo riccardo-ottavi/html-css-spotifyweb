@@ -276,6 +276,26 @@ footer i {
     height: 40px;
     display: flex;
     align-items: center;
+    gap: 10px;
+}
+
+#play-circle {
+    border-radius: 33px;
+    border: white solid 3px;
+    height: 35px;
+    width: 35px;
+    display: flex;
+    position: relative;
+    margin-left: 10px;
+}
+
+#footer-play {
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 5px;
+    left: -1px;
+    margin-left: 10px;
 }
 
 #mid {
@@ -397,10 +417,17 @@ img {
     color: white;
 }
 
-#footer-play:hover {
-    font-size:30px;
+
+
+#play-circle:hover #footer-play {
+    font-size: 22px;
+    padding-bottom: 3px;
 }
 
+#play-circle:hover {
+    width: 37px;
+    height: 37px;
+}
 
 @media screen and (max-width: 878px) {
     .card {
