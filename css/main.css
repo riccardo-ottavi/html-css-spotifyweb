@@ -32,6 +32,8 @@ h3 {
 
 #menu li {
     display: flex;
+    align-items: center;
+    margin-bottom: 5px;
 }
 
 #wrapper {
