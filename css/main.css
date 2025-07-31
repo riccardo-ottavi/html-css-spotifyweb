@@ -220,6 +220,11 @@ footer {
     min-width: 600px;
 }
 
+#left span:hover {
+    color: white;
+    text-decoration: underline;
+}
+
 #left {
     height: 90px;
     display: flex;
